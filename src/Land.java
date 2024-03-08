@@ -5,11 +5,11 @@ public class Land {
 
     private String name;
     private int size;
-    List<Flower> arr = new ArrayList<>();
+    private int freeSpace;
+    List<Flower> arrFlower = new ArrayList<>();
 
-    public Land(String name, int size, List<Flower> arr) {
+    public Land(String name, int size) {
         this.name = name;
         this.size = size;
-        this.arr = arr;
     }
 }

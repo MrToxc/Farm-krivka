@@ -42,5 +42,13 @@ public class Farmer {
         this.land = land;
     }
 
+    public void addAnimal(Animal animal) {
+        if(farm.getFreeSpace() < animal.getSize()) {
+            System.out.println("Not enough space");
+            return;
+        }
+        farm.getArrAnimal()
+    }
+
 
 }
