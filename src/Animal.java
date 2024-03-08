@@ -54,12 +54,12 @@ public abstract class Animal {
         this.specialCare = specialCare;
     }
 
-    public int getFreeSpace(Farm farm) {
-        int freeSpace = 0;
-        for (int i = 0; i < farm.getArrAnimal().size(); i++) {
-            if (Farm.getArrAnimal().get(i).getSize() == Size.BIG) {
-                freeSpace += 2;
-            }
-        }
-    }
+//    public int getFreeSpace(Farm farm) {
+//        int freeSpace = 0;
+//        for (int i = 0; i < farm.getArrAnimal().size(); i++) {
+//            if (Farm.getArrAnimal().get(i).getSize() == Size.BIG) {
+//                freeSpace += 2;
+//            }
+//        }
+//    }
 }
